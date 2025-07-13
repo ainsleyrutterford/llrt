@@ -1898,6 +1898,7 @@ dependencies = [
  "llrt_perf_hooks",
  "llrt_process",
  "llrt_stream_web",
+ "llrt_string_decoder",
  "llrt_timers",
  "llrt_tty",
  "llrt_url",
@@ -2016,6 +2017,16 @@ dependencies = [
  "llrt_utils",
  "rquickjs",
  "tokio",
+]
+
+[[package]]
+name = "llrt_string_decoder"
+version = "0.5.1-beta"
+dependencies = [
+ "llrt_encoding",
+ "llrt_utils",
+ "rquickjs",
+ "simdutf8",
 ]
 
 [[package]]

@@ -117,6 +117,7 @@ The test runner also has support for filters. Using filters is as simple as addi
 | perf_hooks    | ✔︎     | ✔︎     |
 | process       | ✔︎     | ✔︎     |
 | streams       | ✔︎     | ✔︎\*   |
+| string_decoder| ✔︎     | ✔︎     |
 | timers        | ✔︎     | ✔︎     |
 | url           | ✔︎     | ✔︎     |
 | tls           | ✔︎     | ✘⏱     |

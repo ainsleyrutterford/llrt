@@ -16,6 +16,7 @@ use crate::modules::{
     perf_hooks::PerfHooksModule,
     process::ProcessModule,
     stream_web::StreamWebModule,
+    string_decoder::StringDecoderModule,
     tty::TtyModule,
     url::UrlModule,
     util::UtilModule,
@@ -100,6 +101,7 @@ impl Default for ModuleBuilder {
             .with_global(crate::modules::stream_web::init)
             .with_global(crate::modules::http::init)
             .with_global(crate::modules::exceptions::init)
+            .with_module(StringDecoderModule)
             .with_module(LlrtHexModule)
             .with_module(LlrtUuidModule)
             .with_module(LlrtXmlModule)

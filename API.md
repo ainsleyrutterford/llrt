@@ -227,6 +227,10 @@ Available globally
 
 [resolve](https://nodejs.org/api/path.html#pathresolvepaths)
 
+## string_decoder
+
+[StringDecoder](https://nodejs.org/api/string_decoder.html#string-decoder)
+
 ## timers
 
 _Also available globally_
